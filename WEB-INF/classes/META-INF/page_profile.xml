@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<config language="EN">
+		<usertname_placeholder>First Name</usertname_placeholder>
+		<usertsurname_placeholder>Last Name</usertsurname_placeholder>
+		<address1_placeholder>Address</address1_placeholder>
+		<address2_placeholder>Address</address2_placeholder>
+		<email_placeholder>Email</email_placeholder>
+		<email_error>Invalid email input</email_error>
+		<mobile_placeholder>Mobile Phone</mobile_placeholder>
+		<page_profile_savebutton>Update</page_profile_savebutton>
+		<usertname_alert>You can not leave this empty</usertname_alert>
+		<usertsurname_alert>You can not leave this empty</usertsurname_alert>
+		<email_alert>You can not leave this empty</email_alert>
+	</config>
+	<config language="TH">
+		<usertname_placeholder>ชื่อ</usertname_placeholder>
+		<usertsurname_placeholder>นามสกุล</usertsurname_placeholder>
+		<address1_placeholder>ที่อยู่</address1_placeholder>
+		<address2_placeholder>ที่อยู่</address2_placeholder>
+		<email_placeholder>อีเมล์</email_placeholder>
+		<email_error>อีเมล์ไม่ถูกต้องกรุณากรอกใหม่</email_error>
+		<mobile_placeholder>โทรศัพท์</mobile_placeholder>
+		<page_profile_savebutton>บันทึก</page_profile_savebutton>
+		<usertname_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</usertname_alert>
+		<usertsurname_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</usertsurname_alert>
+		<email_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</email_alert>
+	</config>
+</configs>

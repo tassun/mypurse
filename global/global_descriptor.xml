@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="TIS-620"?>
+<CONFIG>
+	<LANGUAGE_ENCODING>ใช้ระบุ encoding เมื่อมีการ generate xml stream หรือเมื่อทำการ transform ระหว่าง xml กับ xsl</LANGUAGE_ENCODING>
+	<PATH>ระบุเส้นทางที่ใช้ในการค้นหาไฟล์ใน project</PATH>
+	<TRACE_PATH>folder ที่ใช้จัดเก็บ trace file</TRACE_PATH>
+	<TRACE_FILE>ใช้สำหรับตั้งชื่อ trace file หากไม่ระบุจะใช้ชื่อ trace.log (ใช้สำหรับ trace system message เวลา print out ทุก ๆ อย่าง)</TRACE_FILE>
+	<DBTRACE>true/false ใช้ enable การ log sql statement</DBTRACE>
+	<DBTRACE_PATH>ระบุ folder ที่ใช้จัดเก็บ db trace file</DBTRACE_PATH>
+	<DBTRACE_FILE>ใช้สำหรับตั้งชื่อ db trace file หากไม่ระบุจะใช้ชื่อ dbtrace.log (ใช้สำหรับ trace sql statement)</DBTRACE_FILE>
+	<TRACKER_PATH>ระบุ folder ที่ใช้จัดเก็บ tracker file</TRACKER_PATH>
+	<TRACKER_FILE>ใช้สำหรับตั้งชื่อ tracker file หากไม่ระบุจะใช้ชื่อ tracker.log (เป็น log file สำหรับ trace ดูว่าใครทำอะไรบ้าง)</TRACKER_FILE>
+	<STATEMENT_ADAPTER>true/false ใช้ enable statement adapter</STATEMENT_ADAPTER>
+	<RESULTSET_ADAPTER>true/false ใช้ enable result set adapter</RESULTSET_ADAPTER>
+	<DRIVER>ใช้ระบุ jdbc driver ที่จะติดต่อกับฐานข้อมูล</DRIVER>
+	<URL>ใช้ระบุ URL ที่เข้าถึงฐานข้อมูล ex. jdbc:mysql://127.0.0.1:3306/mydb</URL>
+	<USER>ระบุ user id ที่ใช้ access ฐานข้อมูล</USER>
+	<PASSWORD>ระบุ pass word ของ user ที่ใช้ access ฐานข้อมูล</PASSWORD>
+	<REFERENCE_DRIVER>ใช้ระบุ jdbc driver ที่จะติดต่อกับฐานข้อมูล section REFERENCE</REFERENCE_DRIVER>
+	<REFERENCE_URL>ใช้ระบุ URL ที่เข้าถึงฐานข้อมูล section REFERENCE</REFERENCE_URL>
+	<REFERENCE_USER>ระบุ user id ที่ใช้ access ฐานข้อมูล section REFERENCE</REFERENCE_USER>
+	<REFERENCE_PASSWORD>ระบุ pass word ของ user ที่ใช้ access ฐานข้อมูล section REFERENCE</REFERENCE_PASSWORD>
+	<LOGGER_DRIVER>ใช้ระบุ jdbc driver ที่จะติดต่อกับฐานข้อมูล section LOGGER</LOGGER_DRIVER>
+	<LOGGER_URL>ใช้ระบุ URL ที่เข้าถึงฐานข้อมูล section LOGGER</LOGGER_URL>
+	<LOGGER_USER>ระบุ user id ที่ใช้ access ฐานข้อมูล section LOGGER</LOGGER_USER>
+	<LOGGER_PASSWORD>ระบุ pass word ของ user ที่ใช้ access ฐานข้อมูล section LOGGER</LOGGER_PASSWORD>
+	<DEBUG_MODE>true/false ใช้ enable การ trace message ใน debug mode</DEBUG_MODE>
+	<WARNING_MODE>true/false ใช้ enable การ trace message ใน warning mode</WARNING_MODE>
+	<INFO_MODE>true/false ใช้ enable การ trace message ใน information mode</INFO_MODE>
+	<ERROR_MODE>true/false ใช้ enable การ trace message ใน error mode</ERROR_MODE>
+	<HEADER_MODE>true/false ใช้ enable การ trace message DEBUG,WARNING,INFO,ERROR ใน debug,warning,info และ error mode</HEADER_MODE>
+	<TRANSPORT_URL>ใช้ระบุ url ที่ใช้ติดต่อกับ application server ex. rmi://127.0.0.1:5555/beanservice ซึ่งหากมีการระบุแสดงว่ามีการแยก application server ออกมาทำงานต่างหาก</TRANSPORT_URL>
+	<ALERT_MESSAGE>true/false ใช้ enable การ alert ข้อความในกรณีมี error message ด้วย script</ALERT_MESSAGE>
+	<EXCEPTION_MESSAGE>true/false ใช้ enable การแสดงข้อความในกรณีมี error message ด้วย สีแดงตรงส่วนบนของหน้า web page ที่ทำงานขณะนั้น</EXCEPTION_MESSAGE>
+	<INFO_MESSAGE>true/false enable การ alert information ในกรณีมีข้อความด้วย script</INFO_MESSAGE>
+	<EXCEPTION_UNDERBANNER>true/false ระบุว่าจะให้แสดง error message บน(false) หรือล่าง(true) banner</EXCEPTION_UNDERBANNER>
+	<INCLUDE_HEADER>true/false ใช้ระบุว่าจะทำการ include header.jsp เข้าใน working page นั้นหรือไม่</INCLUDE_HEADER>
+	<VALID_ACCESSOR>true/false enable การตรวจสอบ accessor ที่เข้าใช้งาน</VALID_ACCESSOR>
+	<MAXCONNECTION>ใช้ระบุจำนวน max connection ภายใน pool</MAXCONNECTION>
+	<REUSECONNECTION>true/false ระบุว่าจะให้ทำการใช้ connection เดิมที่ release คืน pool หรือว่าให้สร้าง connection ใหม่ทดแทนของเดิม</REUSECONNECTION>
+	<VALIDATE_CONNECTION>false</VALIDATE_CONNECTION>
+	<DB_TIMEOUT>ระบุ timeout สำหรับ connection ภายใน pool</DB_TIMEOUT>
+	<TIMEOUT>ระบุ timeout ต่อรอบที่ใช้รอ connection ใน pool ในกรณี empty pool</TIMEOUT>
+	<MAXROUND>ระบุจำนวนรอบที่ต้องการรอในกรณี empry pool</MAXROUND>
+	<TRANSACTION_ISOLATION>ใช้ระบุ isolation ที่ต้องการกับ connection นั้น ๆ ex. 1 = TRANSACTION_READ_UNCOMMITTED, 2 = TRANSACTION_READ_COMMITTED, 4 = TRANSACTION_REPEATABLE_READ, 8 = TRANSACTION_SERIALIZABLE</TRANSACTION_ISOLATION>
+	<DB_LOCALE>ใช้ระบุ database locale ที่ใช้ในการสร้าง connection หากไม่ระบุจะตาม regional ของเครื่อง server</DB_LOCALE>
+	<SIGNON_HANDLER>ใช้ระบุ handler ที่ใช้ในการทำ signon ในกรณี logon เข้าใช้งานระบบอื่น ex. signon.jsp</SIGNON_HANDLER>
+	<SIGNON_OTHER_URL>ใช้ระบุ url อื่นที่จะให้ทำการ logon ด้วย signon handler ex. http://160.3.212.56:8080/TBDC/Logon,http://160.3.212.56:8080/TIME/logon</SIGNON_OTHER_URL>
+	<CONVERT_UNICODE>true/false ใช้ระบุว่าให้ทำการ convert data เป็น unicode หรือไม่เมื่อทำการ manipulate data base</CONVERT_UNICODE>
+	<DISPLAY_COLLECTION_CONVERTER>ระบุว่าต้องการให้ทำการ convert stream เป็นอะไร 0=none, 1=native to unicode, 2=unicode to native</DISPLAY_COLLECTION_CONVERTER>
+	<TRANSFORM_ENCODING>ระบุ encoding ที่ใช้ในการ transform สำหรับ cache collector ex. ISO-8859-1</TRANSFORM_ENCODING>
+	<BYTES_COLLECTION_ENCODING>ระบุ encoding ที่ใช้ในการแปลง stream สำหรับ cache collector ex. ISO-8859-1</BYTES_COLLECTION_ENCODING>
+	<VALIDATE_SIGNON>true/false ใช้ enable การตรวจสอบการ logon เข้าระบบ</VALIDATE_SIGNON>
+	<MAXFAIL_SIGNON>ใช้ระบุจำนวนครั้งที่ logon ผิด มากที่สุดได้กี่ครั้ง ซึ่งหากว่าเกินจะไม่สามารถเข้าใช้งานได้อีกต่อไปภายใต้ session นั้น ๆ</MAXFAIL_SIGNON>
+	<MENU_FILEPATH>ใช้ระบุที่อยู่ของระบบเมนู ex. C:\jakarta-tomcat-4.0.3\webapps\LOGON\menu\</MENU_FILEPATH>
+	<USE_MENUTREE>true/false ใช้ enable ว่าให้ใช้ menu tree หรือจะใช้การ scrape program ทั้งหมดภายใต้ project นั้น</USE_MENUTREE>
+	<SHOW_TITLE>true/false enable ว่าจะแสดง title หรือไม่</SHOW_TITLE>
+	<FULL_SCREEN>true/false ระบุว่าจะแสดงผลแบบเต็มหน้าจอหรือไม่</FULL_SCREEN>
+	<OPEN_NEW_WINDOW>true/false ระบุว่าจะให้ launch program เป็น window ใหม่หรือเปิดใช้งานเฉพาะใน working area frame</OPEN_NEW_WINDOW>
+	<LOOKUP_SERVLET>ใช้ระบุ lookup url handler ที่ใช้ในการค้นหา cache data ex. /servlet/collector</LOOKUP_SERVLET>
+	<CONTEXT_WINDOW>true/false allow right click to view the content on web page</CONTEXT_WINDOW>
+	<SYSTEM_CONTEXT>true/false allow right click to view the content of header and menu section</SYSTEM_CONTEXT>
+	<MENU_TREE_TITLE>ใช้ระบุ root menu tree title</MENU_TREE_TITLE>
+	<AUTO_COMPOSE>true ให้ทำการ auto compose menu tree</AUTO_COMPOSE>
+	<COMPOSE_MAIN>true ให้ทำการ compose with main jsp page</COMPOSE_MAIN>
+	<MENU_EXCEPT>ให้ระบุ program ที่ยกเว้นไม่แสดงในกรณีไม่ได้แสดงแบบ tree menu</MENU_EXCEPT>
+	<WINDOW_STYLE>XP ให้แสดงระบบเมนูแบบ xp style</WINDOW_STYLE>
+	<CUSTOM_LOCALE>true/false ระบุว่าจะใช้ locale ตามเครื่อง server หรือว่าใช้ default US locale</CUSTOM_LOCALE>
+	<MENU_COLLAPIMAGE>ระบุว่าจะใช้รูปอะไรในการทำ menu เมื่อมีการ collap ex. books_close.gif</MENU_COLLAPIMAGE>
+	<MENU_EXPANDIMAGE>ระบุว่าจะใช้รูปอะไรในการทำ menu เมื่อมีการ expand ex. books_open.gif</MENU_EXPANDIMAGE>
+	<INTERNAL_RELOAD>true/false ให้ระบุว่าจะทำการอ่าน global_config.xml ใหม่ทุกครั้งที่มีการร้องขอหรือไม่</INTERNAL_RELOAD>
+	<PASSWORDMETHOD>3DES = ใช้ algorithm 3des ในการ encript password</PASSWORDMETHOD>
+	<VALID_KICKOUT>false = do not kick out previous user session</VALID_KICKOUT>
+</CONFIG>

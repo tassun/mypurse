@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<config language="EN">
+		<login_label>Sign In</login_label>
+		<login_button>Sign In</login_button>
+		<register_button>REGISTER</register_button>
+		<forgot_password>Forgot Password?</forgot_password>
+		<login_user_placeholder>User</login_user_placeholder>
+		<login_pass_placeholder>Password</login_pass_placeholder>
+		<profile_label>My Profile</profile_label>
+		<changepwd_label>Change Password</changepwd_label>
+		<logout_label>Sign Out</logout_label>
+		<loginmenutrigger>Sign In</loginmenutrigger>
+		<registermenutrigger>Register</registermenutrigger>
+		<englishlanguage>English</englishlanguage>
+		<thailanguage>Thai</thailanguage>
+		<pagedaily_label>My Daily</pagedaily_label>
+		<pageitem_label>My Journal</pageitem_label>
+		<pagereport_label>My Report</pagereport_label>
+		<pageuser_label>My User</pageuser_label>
+		<pagetrack_label>My Trace</pagetrack_label>
+		<pagelog_label>My Log</pagelog_label>
+	</config>
+	<config language="TH">
+		<login_label>เข้าสู่ระบบ</login_label>
+		<login_button>เข้าระบบ</login_button>
+		<register_button>ลงทะเบียน</register_button>
+		<forgot_password>ลืมรหัสผ่าน?</forgot_password>
+		<login_user_placeholder>ผู้ใช้</login_user_placeholder>
+		<login_pass_placeholder>รหัสผ่าน</login_pass_placeholder>
+		<profile_label>ข้อมูลส่วนตัว</profile_label>
+		<changepwd_label>เปลี่ยนรหัสผ่าน</changepwd_label>
+		<logout_label>ออกจากระบบ</logout_label>
+		<loginmenutrigger>เข้าระบบ</loginmenutrigger>
+		<registermenutrigger>ลงทะเบียน</registermenutrigger>
+		<englishlanguage>อังกฤษ</englishlanguage>
+		<thailanguage>ไทย</thailanguage>
+		<pagedaily_label>บันทึกประจำวัน</pagedaily_label>
+		<pageitem_label>รายการของฉัน</pageitem_label>
+		<pagereport_label>รายงานของฉัน</pagereport_label>
+		<pageuser_label>My User</pageuser_label>
+		<pagetrack_label>My Trace</pagetrack_label>
+		<pagelog_label>My Log</pagelog_label>
+	</config>
+</configs>

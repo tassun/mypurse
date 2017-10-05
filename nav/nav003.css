@@ -1,0 +1,31 @@
+form { margin-bottom:0px; margin-top:0px; }
+.item-table-class { width: 100%; }
+body { margin-left: 10px; margin-top: 10px; }
+.asset-column-class { width: 40%; white-space: nowrap; }
+.unwrap-column { white-space: nowrap; }
+.lookup-table-class { padding-left: 10px; }
+.dettableclass { width: 99%; }
+.button-table-class { width: 99%; font-size: 12px; }
+.detailclass { font-size: 12px; }
+.item-table-class { font-size: 12px; }
+.ui-button-text-only { vertical-align: center; }
+.ui-button-default { width: 90px; height: 30px; }
+.lbclass { text-align:right;  padding-right:10px; }
+button.lookup-select-button-class {	
+	background: url(../images/lookupcombo.gif) no-repeat center;	
+	width: 15px;	
+	height: 18px;	
+	border: 0px; 
+	background-position: top; 
+	cursor: pointer;
+}
+button.lookup-select-button-class :hover { 	
+	background-position: center; 
+}
+button.lookup-select-button-class-hover {
+	background-position: center; 
+}
+.select-item-element { font-size: 12px; }
+.li-select-item-element { text-align:left; white-space: nowrap; }
+.option-fieldset-class { height: 50px; }
+

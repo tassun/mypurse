@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<config language="EN">
+		<forgotpassword_info>Please identify your id and email address with secure code from image</forgotpassword_info>
+		<userid_placeholder>User ID</userid_placeholder>
+		<email_placeholder>Email</email_placeholder>
+		<securecode_info>Please specify the result of two value plus from image</securecode_info>
+		<securecode_placeholder>Answer Code</securecode_placeholder>
+		<page_forgot_savebutton>Send</page_forgot_savebutton>
+		<userid_alert>You can not leave this empty</userid_alert>
+		<email_alert>You can not leave this empty</email_alert>
+		<securecode_alert>You can not leave this empty</securecode_alert>
+	</config>
+	<config language="TH">
+		<forgotpassword_info>โปรดระบุรหัสผู้ใช้งานกับที่อยู่อีเมล์พร้อมรหัสลับจากภาพที่กำหนด</forgotpassword_info>
+		<userid_placeholder>รหัสผู้ใช้</userid_placeholder>
+		<email_placeholder>อีเมล์</email_placeholder>
+		<securecode_info>โปรดระบุผลลัพธ์จากการบวกเลขทั้งสองจำนวนตามภาพที่กำหนด</securecode_info>
+		<securecode_placeholder>คำตอบลับจากภาพ</securecode_placeholder>
+		<page_forgot_savebutton>ส่ง</page_forgot_savebutton>
+		<userid_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</userid_alert>
+		<email_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</email_alert>
+		<securecode_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</securecode_alert>
+	</config>
+</configs>

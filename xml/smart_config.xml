@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="TIS-620"?>
+<root>
+	<progtype>
+		<row><id>F</id><value>Program Reference</value></row>
+		<row><id>E</id><value>Program Entry </value></row>
+		<row><id>Q</id><value>Program Enquiry </value></row>
+		<row><id>P</id><value>Program Post </value></row>
+		<row><id>R</id><value>Program Report</value></row>
+		<row><id>X</id><value>Program Export </value></row>
+		<row><id>M</id><value>Program Import</value></row>
+		<row><id>G</id><value>Program Generate</value></row>
+	</progtype>
+	<system>
+		<row><id>A</id><value>Admin</value></row>
+		<row><id>F</id><value>Reference</value></row>
+		<row><id>C</id><value>Center</value></row>
+	</system>
+</root>

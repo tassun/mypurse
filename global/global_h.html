@@ -1,0 +1,29 @@
+<html>
+<title>Global Variable Information</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-874">
+<meta name="Description" content="SCCS id: $Id$">
+<head>
+<script language="JavaScript">
+function closeChildWindows() {
+	try	{
+		window.parent.closeChildWindows();
+	}catch (ex)	{ 	}
+}
+function closeWindow() {
+	window.close();
+}
+//#script and function definition just the way you are
+//#(10000) programmer code begin;
+//#(10000) programmer code end;
+</script>
+</head>
+<body onunload="closeChildWindows()">
+<script language="JavaScript">
+	try {
+		if(window.parent.opener) {
+			window.parent.opener.attachEvent("onunload",closeWindow);
+		}
+} catch(ex) { }	
+</script>
+</body>
+</html>

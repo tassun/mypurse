@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<config language="EN">
+		<seqno_headerlabel>No.</seqno_headerlabel>
+		<cdname_headerlabel>Title</cdname_headerlabel>
+		<amt_headerlabel>Amount</amt_headerlabel>
+		<cdtype_headerlabel>Type</cdtype_headerlabel>
+		<action_headerlabel>Action</action_headerlabel>
+		<btndelete_tooltip>Delete</btndelete_tooltip>
+		<btnedit_tooltip>Edit</btnedit_tooltip>
+		<btnview_tooltip>View</btnview_tooltip>
+		<modalheader>Journal List</modalheader>
+		<new_modalheader>New Journal List</new_modalheader>
+		<edit_modalheader>Edit Journal List</edit_modalheader>
+		<view_modalheader>View Journal List</view_modalheader>
+		<cdname_placeholder>Title</cdname_placeholder>
+		<cdname_alert>You can not leave this empty</cdname_alert>
+		<amt_placeholder>Estimate Amount</amt_placeholder>
+		<amt_alert>You can not leave this empty and value must greater than zero</amt_alert>
+		<amt_error>Invalid input amount value or value must greater than zero</amt_error>
+		<cdstyle_placeholder>Style</cdstyle_placeholder>
+		<page_item_savebutton>Save</page_item_savebutton>
+		<page_item_cancelbutton>Cancel</page_item_cancelbutton>
+		<insertbutton_title>Add New Journal List</insertbutton_title>
+	</config>
+	<config language="TH">
+		<seqno_headerlabel>ลำดับที่</seqno_headerlabel>
+		<cdname_headerlabel>รายการ</cdname_headerlabel>
+		<amt_headerlabel>จำนวนเงิน</amt_headerlabel>
+		<cdtype_headerlabel>ชนิด</cdtype_headerlabel>
+		<action_headerlabel>การทำงาน</action_headerlabel>
+		<btndelete_tooltip>ลบ</btndelete_tooltip>
+		<btnedit_tooltip>แก้ไข</btnedit_tooltip>
+		<btnview_tooltip>ดู</btnview_tooltip>
+		<modalheader>รายการ</modalheader>
+		<new_modalheader>เพิ่มรายการใหม่</new_modalheader>
+		<edit_modalheader>แก้ไขรายการ</edit_modalheader>
+		<view_modalheader>ดูรายการ</view_modalheader>
+		<cdname_placeholder>รายการ</cdname_placeholder>
+		<cdname_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</cdname_alert>
+		<amt_placeholder>จำนวนเงิน</amt_placeholder>
+		<amt_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่างและต้องมีค่ามากกว่าศูนย์</amt_alert>
+		<amt_error>นำเข้าข้อมูลไม่ถูกต้องหรือต้องมีค่ามากกว่าศูนย์</amt_error>
+		<cdstyle_placeholder>รูปแบบ</cdstyle_placeholder>
+		<page_item_savebutton>บันทึก</page_item_savebutton>
+		<page_item_cancelbutton>ยกเลิก</page_item_cancelbutton>
+		<insertbutton_title>เพิ่มรายการใหม่</insertbutton_title>
+	</config>
+</configs>

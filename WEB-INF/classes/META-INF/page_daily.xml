@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<config language="EN">
+		<changedate_label>If you want to change date please select from the calendar and then press Change Date button</changedate_label>
+		<searchbutton>Change Date</searchbutton>
+		<seqno_headerlabel>No.</seqno_headerlabel>
+		<cdname_headerlabel>Title</cdname_headerlabel>
+		<amt_headerlabel>Amount</amt_headerlabel>
+		<receiveamt_headerlabel>Receive</receiveamt_headerlabel>
+		<paymentamt_headerlabel>Payment</paymentamt_headerlabel>
+		<remark_headerlabel>Remark</remark_headerlabel>
+		<action_headerlabel>Action</action_headerlabel>
+		<totalamt_label>Total Amount</totalamt_label>
+		<balanceamt_label>Balance Amount</balanceamt_label>
+		<btndelete_tooltip>Delete</btndelete_tooltip>
+		<btnedit_tooltip>Edit</btnedit_tooltip>
+		<btnview_tooltip>View</btnview_tooltip>
+		<modalheader>Daily List</modalheader>
+		<new_modalheader>New Daily List</new_modalheader>
+		<edit_modalheader>Edit Daily List</edit_modalheader>
+		<view_modalheader>View Daily List</view_modalheader>
+		<cdcode_placeholder>Title</cdcode_placeholder>
+		<cdcode_alert>You can not leave this empty</cdcode_alert>
+		<amt_placeholder>Amount</amt_placeholder>
+		<amt_alert>You can not leave this empty and value must greater than zero</amt_alert>
+		<amt_error>Invalid input amount value or value must greater than zero</amt_error>
+		<remark_placeholder>Remark</remark_placeholder>
+		<page_daily_savebutton>Save</page_daily_savebutton>
+		<page_daily_cancelbutton>Cancel</page_daily_cancelbutton>
+		<item_modalheader>Journal List</item_modalheader>
+		<newitem_modalheader>New Journal List</newitem_modalheader>
+		<newcdname_placeholder>Title</newcdname_placeholder>
+		<newcdname_alert>You can not leave this empty</newcdname_alert>
+		<newamt_placeholder>Estimate Amount</newamt_placeholder>
+		<newamt_alert>You can not leave this empty and value must greater than zero</newamt_alert>
+		<newamt_error>Invalid input amount value or value must greater than zero</newamt_error>
+		<page_item_savebutton>Save</page_item_savebutton>
+		<page_item_cancelbutton>Cancel</page_item_cancelbutton>
+		<cdcodebutton_title>Add New Item</cdcodebutton_title>
+		<cdname_info>Please select daily item, else if not found you can add the new one by press Add New Item button after select box</cdname_info>
+		<dailydate_label>Date : </dailydate_label>
+		<insertbutton_title>Add New Daily List</insertbutton_title>
+	</config>
+	<config language="TH">
+		<changedate_label>หากท่านต้องการเปลี่ยนวันที่ให้ทำการเลือกวันที่จากปฏิทินแล้วทำการกดปุ่ม เปลี่ยนวันที่</changedate_label>
+		<searchbutton>เปลี่ยนวันที่</searchbutton>
+		<seqno_headerlabel>ลำดับที่</seqno_headerlabel>
+		<cdname_headerlabel>รายการ</cdname_headerlabel>
+		<amt_headerlabel>จำนวนเงิน</amt_headerlabel>
+		<receiveamt_headerlabel>รายรับ</receiveamt_headerlabel>
+		<paymentamt_headerlabel>รายจ่าย</paymentamt_headerlabel>
+		<remark_headerlabel>หมายเหตุ</remark_headerlabel>
+		<action_headerlabel>การทำงาน</action_headerlabel>
+		<totalamt_label>ยอดรวมทั้งหมด</totalamt_label>
+		<balanceamt_label>ยอดคงเหลือทั้งหมด</balanceamt_label>
+		<btndelete_tooltip>ลบ</btndelete_tooltip>
+		<btnedit_tooltip>แก้ไข</btnedit_tooltip>
+		<btnview_tooltip>ดู</btnview_tooltip>
+		<modalheader>รายการรับจ่าย</modalheader>
+		<new_modalheader>เพิ่มรายการประจำวันใหม่</new_modalheader>
+		<edit_modalheader>แก้ไขรายการประจำวัน</edit_modalheader>
+		<view_modalheader>ดูรายการประจำวัน</view_modalheader>
+		<cdcode_placeholder>รายการ</cdcode_placeholder>
+		<cdcode_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</cdcode_alert>
+		<amt_placeholder>จำนวนเงิน</amt_placeholder>
+		<amt_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่างและต้องมีค่ามากกว่าศูนย์</amt_alert>
+		<amt_error>นำเข้าจำนวนเงินไม่ถูกต้องหรือต้องมีค่ามากกว่าศูนย์</amt_error>
+		<remark_placeholder>หมายเหตุ</remark_placeholder>
+		<page_daily_savebutton>บันทึก</page_daily_savebutton>
+		<page_daily_cancelbutton>ยกเลิก</page_daily_cancelbutton>
+		<item_modalheader>รายการ</item_modalheader>
+		<newitem_modalheader>เพิ่มรายการใหม่</newitem_modalheader>
+		<newcdname_placeholder>รายการ</newcdname_placeholder>
+		<newcdname_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</newcdname_alert>
+		<newamt_placeholder>จำนวนเงิน</newamt_placeholder>
+		<newamt_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่างและต้องมีค่ามากกว่าศูนย์</newamt_alert>
+		<newamt_error>นำเข้าข้อมูลไม่ถูกต้องหรือต้องมีค่ามากกว่าศูนย์</newamt_error>
+		<page_item_savebutton>บันทึก</page_item_savebutton>
+		<page_item_cancelbutton>ยกเลิก</page_item_cancelbutton>
+		<cdcodebutton_title>เพิ่มรายการใหม่</cdcodebutton_title>
+		<cdname_info>โปรดเลือกรายการประจำวันที่ต้องการ หากไม่พบรายการที่เหมาะสมท่านสามารถกดปุ่ม เพิ่มรายการใหม่ ได้หลังกล่องรายการ</cdname_info>
+		<dailydate_label>วันที่ : </dailydate_label>
+		<insertbutton_title>เพิ่มรายการประจำวันใหม่</insertbutton_title>
+	</config>
+</configs>

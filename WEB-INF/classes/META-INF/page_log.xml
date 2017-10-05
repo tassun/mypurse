@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<config language="EN">
+		<fromdates_label>From Date</fromdates_label>
+		<todates_label>To Date</todates_label>
+		<userids_placeholder>User ID</userids_placeholder>
+
+		<seqno_headerlabel>No.</seqno_headerlabel>
+		<userid_headerlabel>User</userid_headerlabel>
+		<username_headerlabel>Name</username_headerlabel>
+		<email_headerlabel>Email</email_headerlabel>
+		<mobile_headerlabel>Mobile</mobile_headerlabel>
+		<logintime_headerlabel>SignIn</logintime_headerlabel>
+		<logouttime_headerlabel>SignOut</logouttime_headerlabel>
+		<browsername_headerlabel>Browser</browsername_headerlabel>
+		<browserversion_headerlabel>Version</browserversion_headerlabel>
+		<osname_headerlabel>OS</osname_headerlabel>
+		<devicename_headerlabel>Device</devicename_headerlabel>
+		<browseragent_headerlabel>Agent</browseragent_headerlabel>
+		
+	</config>
+	<config language="TH">
+		<fromdates_label>จากวันที่</fromdates_label>
+		<todates_label>ถึงวันที่</todates_label>
+		<userids_placeholder>ผู้ใช้</userids_placeholder>
+
+		<seqno_headerlabel>ลำดับที่</seqno_headerlabel>
+		<userid_headerlabel>ผู้ใช้</userid_headerlabel>
+		<username_headerlabel>ชื่อ</username_headerlabel>
+		<email_headerlabel>อีเมล์</email_headerlabel>
+		<mobile_headerlabel>โทรศัพท์</mobile_headerlabel>
+		<logintime_headerlabel>เข้าระบบ</logintime_headerlabel>
+		<logouttime_headerlabel>ออกระบบ</logouttime_headerlabel>
+		<browsername_headerlabel>Browser</browsername_headerlabel>
+		<browserversion_headerlabel>Version</browserversion_headerlabel>
+		<osname_headerlabel>OS</osname_headerlabel>
+		<devicename_headerlabel>อุปกรณ์</devicename_headerlabel>
+		<browseragent_headerlabel>Agent</browseragent_headerlabel>
+		
+	</config>
+</configs>

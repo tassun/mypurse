@@ -1,0 +1,20 @@
+.fa-box-title { margin: 3px; }
+.navbox-tiles .tile .icon .fa {
+	top: 10%;
+	left: 25%;
+}
+#favorbarmenu {
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.dropdown .favor-dropdown-menu {
+	opacity: 0;
+}
+.navigatebar-top {
+/*
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#c0c0c0')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#c0c0c0');
+	*/
+ }

@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+  <script type="text/javascript" src="../jquery/jquery-1.11.1.js"></script>
+  <script type="text/javascript">
+	function signinClick1() {
+		var aurl = "../rest/signin/"+$("#deviceid").val();
+		jQuery.ajax({
+			url: aurl,
+			type: "POST",
+			dataType: "html",
+			contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+			error : function(transport,status,errorThrown) { 
+				alert("error : "+status+" \n"+errorThrown);
+			},
+			success: function(data,status,transport){
+				alert(data);
+			}
+		});	
+	}
+	function signinClick2() {
+		jQuery.ajax({
+			url: "../rest/handler/signin",
+			type: "POST",
+			data : $(myform).serialize(),
+			dataType: "html",
+			contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+			error : function(transport,status,errorThrown) { 
+				alert("error : "+status+" \n"+errorThrown);
+			},
+			success: function(data,status,transport){
+				alert(data);
+			}
+		});	
+	}
+  </script>
+ </HEAD>
+ <BODY>
+  <form id="myform" name="myform" method="POST" target="myframe">
+	<input type="hidden" name="fsAction" value="retrieve"/>
+	Device : <input type="text" id="deviceid" name="deviceid" value="001"/> </br>
+	<br>
+	<input type="submit" value="Submit Rest" onclick="myform.action='../rest/signin/'+deviceid.value;"></input>
+	<input type="submit" value="Submit Handler" onclick="myform.action='../rest/handler/signin?deviceid='+deviceid.value;"></input>
+  </form>
+  <input  type="button" id="submitbutton1" onclick="signinClick1()" value="Sign In Rest"/>
+  <input  type="button" id="submitbutton2" onclick="signinClick2()" value="Sign In Handler"/>
+  <iframe id="myframe" name="myframe" width="99%" height="150px;"/>
+ </BODY>
+</HTML>
+
+
+

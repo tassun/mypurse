@@ -1,0 +1,174 @@
+/*******************************************************************************
+* Copyright (C) Freewillsolution Co.,Ltd. All Rights Reserved
+* $Author: wrb $
+* $URL: http://10.22.13.77/svn_spot_portal/GSP_Online/css/cbp_form.css $
+* $LastChangedDate: 2015-07-10 16:46:02 +0700 (Fri, 10 Jul 2015) $
+* $LastChangedBy: wrb $
+* $Rev: 2 $
+*******************************************************************************/
+/************* CSS of <form> *************/
+.cbp-mc-form {
+	position: relative;
+	/*padding: 5px 5px 5px 5px;*/
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.cbp-mc-form:before, 
+.cbp-mc-form:after { 
+	content: " "; 
+	display: table;
+}
+
+.cbp-mc-form:after { 
+	clear: both; 
+}
+
+.cbp-mc-column {
+	width: 20%;
+	padding: 10px 30px;
+	float: left;
+	border-style:dashed;	
+	border-top-color: #31bc86;
+	border-right-color: #31bc86;
+	border-bottom-color: #31bc86;
+	border-left-color: #31bc86;
+}
+.cbp-mc-column-empty {
+	border-style:none;	
+}
+.cbp-mc-column-5px {
+	width:5px;
+	border-style:none;	
+}
+.cbp-mc-form label {
+	display: block;
+	padding: 10px 5px 5px 2px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.cbp-mc-form input,
+.cbp-mc-form textarea,
+.cbp-mc-form select {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	line-height: 1.5;
+	font-size: 0.8em;
+	padding: 5px 10px;
+	color: #000;
+	display: block;
+	width: 100%;
+	background: transparent;
+}
+.cbp-mc-form select {
+	width: auto;
+}
+
+.cbp-mc-form input,
+.cbp-mc-form textarea,
+.cbp-mc-form select {
+	border: 3px solid #999;
+}
+
+.cbp-mc-form textarea {
+	min-height: 200px;
+}
+
+.cbp-mc-form input:focus,
+.cbp-mc-form textarea:focus,
+.cbp-mc-form select:focus,
+.cbp-mc-form label:active + input,
+.cbp-mc-form label:active + textarea {
+	outline: none;
+	border: 3px solid #31bc86;
+}
+
+.cbp-mc-submit-wrap {
+	text-align: center;
+	padding-top: 40px;
+	clear: both;
+}
+
+.cbp-mc-form input.cbp-mc-submit {
+	background: #666666;
+	border: none;
+	color: #fff;
+	width: auto;
+	cursor: pointer;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 0.9em;
+	border-radius: 5px;
+	letter-spacing: 1px;
+}
+
+.cbp-mc-form input.cbp-mc-submit:hover {
+	background: #31bc86;
+}
+.ok_cancel_btn{
+	background: #666666;
+	border: none;
+	color: #fff;
+	width: auto;
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 0.7em;
+	border-radius: 5px;
+	letter-spacing: 1px;	
+}
+.ok_cancel_btn:hover{
+	background: #31bc86;
+}
+.div_dashed_border{
+	border-style:dashed;	
+	border-top-color: #31bc86;
+	border-right-color: #31bc86;
+	border-bottom-color: #31bc86;
+	border-left-color: #31bc86;	
+}
+
+.div_50per_center{
+	position:relative;
+	width: 50%;
+
+}
+.div_100per_center{
+	position:relative;
+	width: 100%;
+
+}
+.div_25per{
+	width:25%;	
+}
+.div_dialog{
+	width: 50%;
+}
+.div_hide{
+	display:none;
+}
+
+.div_center{
+	margin: 0px auto;
+}
+@media screen and (max-width: 55em) {
+	.cbp-mc-column {
+		width:50%;
+	}
+	.cbp-mc-column:nth-child(3) {
+	/* [disabled]width: 100%; */
+	}
+	.div_50per_center{
+	width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 30em) {
+	.cbp-mc-column {
+	width: 100%;
+	/* [disabled]padding: 10px; */
+	}
+}

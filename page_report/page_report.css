@@ -1,0 +1,12 @@
+.cdtype-class { border: none; background-color: whitesmoke; }
+.my-radio { width: 15px; height: 15px; }
+label.has-error { color:#a94442; }
+span.has-error { color:#a94442; }
+#amt { text-align: right; }
+#newamt { text-align: right; }
+.newcdtype-class { border: none; background-color: whitesmoke; }
+.table-striped > tfoot > tr > td { 
+	/*background-color: #F5F5DC;*/
+	background-color: #FAFAD2;
+}
+td.align-middle { vertical-align: middle; }

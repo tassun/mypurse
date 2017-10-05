@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<config language="EN">
+		<usertname_placeholder>First Name</usertname_placeholder>
+		<usertsurname_placeholder>Last Name</usertsurname_placeholder>
+		<userid_placeholder>User ID</userid_placeholder>
+		<userpassword_placeholder>Password</userpassword_placeholder>
+		<confirmpassword_placeholder>Confirm Password</confirmpassword_placeholder>
+		<email_placeholder>Email</email_placeholder>
+		<email_error>Invalid email input</email_error>
+		<mobile_placeholder>Mobile Phone</mobile_placeholder>
+		<page_regist_savebutton>Register</page_regist_savebutton>
+		<confirmbox_label>I accept in terms of service with privacy and conditions</confirmbox_label>
+		<confirmpassword_error>Confirm Password Mismatch</confirmpassword_error>
+		<confirmbox_error>Please accept terms of service registration</confirmbox_error>
+		<usertname_alert>You can not leave this empty</usertname_alert>
+		<usertsurname_alert>You can not leave this empty</usertsurname_alert>
+		<userid_alert>You can not leave this empty</userid_alert>
+		<userpassword_alert>You can not leave this empty</userpassword_alert>
+		<confirmpassword_alert>You can not leave this empty</confirmpassword_alert>
+		<email_alert>You can not leave this empty</email_alert>
+		<userid_error>User ID is already existed</userid_error>
+	</config>
+	<config language="TH">
+		<usertname_placeholder>ชื่อ</usertname_placeholder>
+		<usertsurname_placeholder>นามสกุล</usertsurname_placeholder>
+		<userid_placeholder>รหัสผู้ใช้</userid_placeholder>
+		<userpassword_placeholder>รหัสผ่าน</userpassword_placeholder>
+		<confirmpassword_placeholder>ยืนยันรหัสผ่าน</confirmpassword_placeholder>
+		<email_placeholder>อีเมล์</email_placeholder>
+		<email_error>อีเมล์ไม่ถูกต้องกรุณากรอกใหม่</email_error>
+		<mobile_placeholder>โทรศัพท์</mobile_placeholder>
+		<page_regist_savebutton>ลงทะเบียน</page_regist_savebutton>
+		<confirmbox_label>ข้าพเจ้ายอมรับข้อกำหนดและเงื่อนไขการบริการ</confirmbox_label>
+		<confirmpassword_error>รหัสผ่านกับยืนยันรหัสผ่านไม่ตรงกัน</confirmpassword_error>
+		<confirmbox_error>โปรดยอมรับเงื่อนไขบริการก่อนทำการลงทะเบียน</confirmbox_error>
+		<usertname_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</usertname_alert>
+		<usertsurname_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</usertsurname_alert>
+		<userid_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</userid_alert>
+		<userpassword_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</userpassword_alert>
+		<confirmpassword_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</confirmpassword_alert>
+		<email_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</email_alert>
+		<userid_error>รหัสผู้ใช้งานนี้ถูกใช้แล้ว</userid_error>
+	</config>
+</configs>

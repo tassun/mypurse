@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errors reload="true">
+	<!-- The below is the error code for MySQL data base -->
+	<!-- Null data entry-->
+	<error code="1048">Input some data is undefined on required field</error>
+	<!-- Duplicate entry for ??? -->
+	<error code="1062">Duplicate data entry</error>
+
+	<error code="-4011">Accessor not valid or session expired. Please signin again.</error>
+
+	<error code="5001">User or password is incorrect.</error>
+	<error code="5002">User or Password is incorrect.</error>
+	<error code="5003">Signin failure are over # times. Please contact administrator. Close all your browser and retry again.</error>
+	<error code="5004">Your User ID is not active. Please contact administrator.</error>
+	<error code="5005">Your User ID has been locked. Please contact administrator.</error>
+	<error code="5006">Password expired. Please change password.</error>
+	<error code="5007">You are not active cause of pending from admistrator.</error>
+	<error code="5008">You are not active, out of service now.</error>
+	<error code="5009">Your User ID has been locked. Please contact administrator or wait and retry again after 3 minute.</error>
+
+	<error code="8001">Can not delete, this item list has been used from journal transaction</error>
+	<error code="-8888">User ID and email address does not existed</error>
+	<error code="-8899">You do not have permission to access this page</error>
+	<error code="-8898">User ID is already existed, please use another one</error>
+	<error code="-8700">Date is not specified</error>
+	<error code="-8701">Title or name is not specified</error>
+</errors>

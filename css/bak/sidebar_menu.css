@@ -1,0 +1,85 @@
+/*
+aside {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  left: -100%;
+  background-color: #2A3744;
+  padding: 20px;
+  -moz-transition: left 0.4s ease, width 0.5s cubic-bezier(0.525, -0.35, 0.115, 1.335);
+  -o-transition: left 0.4s ease, width 0.5s cubic-bezier(0.525, -0.35, 0.115, 1.335);
+  -webkit-transition: left 0.4s ease, width 0.5s cubic-bezier(0.525, -0.35, 0.115, 1.335);
+  transition: left 0.4s ease, width 0.5s cubic-bezier(0.525, -0.35, 0.115, 1.335);
+}
+
+aside a {
+  padding: 8px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+  -moz-transition: background-color 0.3s, color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+aside a:hover { color: #fff; }
+
+aside a i, aside a img {
+  width: 20px;
+  text-align: center;
+  margin-right: 6px;
+}
+
+aside .site-nav a { margin-bottom: 3px; }
+
+aside .site-nav a.active, aside .site-nav a:hover { background-color: rgba(0, 0, 0, 0.3); }
+
+aside .site-nav a.active i { color: #24FFCE; }
+*/
+
+.sidebar-menu {
+	position: fixed;
+	height: 93%;
+	width: 100%;
+	left: 0;
+	z-index: 999;
+	/*padding: 10px;*/
+	/*overflow: auto;*/
+	/*background-color: #2A3744;*/
+	background-color: #44350A;
+	/*background-color: #302521; */
+	box-shadow: 3px 3px 3px gray;
+	opacity: 0.95;
+    filter: alpha(opacity=90);
+}
+.sidebar-hide { display: none; }
+.sidebar-menu a { cursor: pointer; }
+#footerbar { 
+	z-index: 2; 
+	color: #58450D;
+}
+
+.sidebar-menu  ol, ul { list-style: none; }
+.sidebar-menu a { text-decoration: none; }
+.sidebar-menu a:visited { text-decoration: none; }
+/* .sidebar-menu li.dropdown a:hover { background-color: white; } */
+.sidebar-layer {
+	width: 100%;
+	height: 92%;
+	overflow: auto;		
+	padding: 10px;
+	/*background-color: silver;*/
+}
+#sidebarfooter {
+	padding-top: 5px;
+	/*border-top: 1px solid rgba(0, 0, 0, 0.3);*/
+	border-top: 1px solid #2F1005;
+	padding-left: 20px;
+	display: block;
+}
+@media (min-width: 500px) {
+	.sidebar-menu {
+		width: 250px;
+	}
+}

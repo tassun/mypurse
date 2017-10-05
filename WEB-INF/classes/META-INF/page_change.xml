@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<config language="EN">
+		<oldpassword_placeholder>Old Password</oldpassword_placeholder>
+		<userpassword_placeholder>New Password</userpassword_placeholder>
+		<confirmpassword_placeholder>Confirm Password</confirmpassword_placeholder>
+		<confirmpassword_error>Confirm Password Mismatch</confirmpassword_error>
+		<page_change_savebutton>Save</page_change_savebutton>
+		<oldpassword_alert>You can not leave this empty</oldpassword_alert>
+		<userpassword_alert>You can not leave this empty</userpassword_alert>
+		<confirmpassword_alert>You can not leave this empty</confirmpassword_alert>
+	</config>
+	<config language="TH">
+		<oldpassword_placeholder>รหัสผ่านเก่า</oldpassword_placeholder>
+		<userpassword_placeholder>รหัสผ่านใหม่</userpassword_placeholder>
+		<confirmpassword_placeholder>ยืนยันรหัสผ่าน</confirmpassword_placeholder>
+		<confirmpassword_error>รหัสผ่านกับยืนยันรหัสผ่านไม่ตรงกัน</confirmpassword_error>
+		<page_change_savebutton>บันทึก</page_change_savebutton>
+		<oldpassword_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</oldpassword_alert>
+		<userpassword_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</userpassword_alert>
+		<confirmpassword_alert>ท่านต้องไม่ปล่อยให้เป็นค่าว่าง</confirmpassword_alert>
+	</config>
+</configs>

@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN" "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+
+<tlib-version>1.0</tlib-version>
+<jsp-version>1.2</jsp-version>
+<short-name>input</short-name>
+<uri>http://freewillsolutions.com/RD/taglibs/formcontrol</uri>
+<description>Set of JSP external Tag from Freewill Solutions. Use for control a entry form.</description>
+
+<tag>
+	<name>genscript</name>
+	<tag-class>com.fs.taglibs.ctrl.ScriptGener</tag-class>
+	<body-content>JSP</body-content>
+</tag>
+
+<tag>
+	<name>taborder</name>
+	<tag-class>com.fs.taglibs.ctrl.TabOrder</tag-class>
+	<body-content>JSP</body-content>
+</tag>
+
+<tag>
+	<name>importJS</name>
+	<tag-class>com.fs.taglibs.ctrl.ImportJS</tag-class>
+	<body-content>JSP</body-content>
+</tag>
+
+<tag>
+	<name>savecmsg</name>
+	<tag-class>com.fs.taglibs.ctrl.SaveConfirmMsg</tag-class>
+	<body-content>JSP</body-content>
+</tag>
+
+<tag>
+	<name>validmap</name>
+	<tag-class>com.fs.taglibs.ctrl.ValidMap</tag-class>
+	<body-content>JSP</body-content>
+</tag>
+
+<tag>
+	<name>fnmap</name>
+	<tag-class>com.fs.taglibs.ctrl.FunctionKeyMap</tag-class>
+	<body-content>JSP</body-content>
+</tag>
+
+<tag>
+	<name>ctrlbody</name>
+	<tag-class>com.fs.taglibs.ctrl.CtrlBody</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>false</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+</tag>
+
+<tag>
+	<name>ctrlform</name>
+	<tag-class>com.fs.taglibs.ctrl.CtrlForm</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>action</name><required>true</required></attribute>
+	<attribute><name>method</name><required>false</required></attribute>
+	<attribute><name>enctype</name><required>false</required></attribute>
+	<attribute><name>target</name><required>false</required></attribute>
+	<attribute><name>submit</name><required>false</required></attribute>
+</tag>
+
+<tag>
+	<name>label</name>
+	<tag-class>com.fs.taglibs.ctrl.Label</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>required</name><required>false</required></attribute>
+	<attribute><name>stylesheet</name><required>false</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>pid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>for</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>completed</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>layer</name>
+	<tag-class>com.fs.taglibs.ctrl.Layer</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>required</name><required>false</required></attribute>
+	<attribute><name>stylesheet</name><required>false</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>pid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>button</name>
+	<tag-class>com.fs.taglibs.ctrl.Button</tag-class>
+	<body-content>empty</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>value</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>message</name><required>false</required></attribute>
+	<attribute><name>type</name><required>false</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>url</name><required>false</required></attribute>
+</tag>
+
+<tag>
+	<name>ncbutton</name>
+	<tag-class>com.fs.taglibs.ctrl.NCButton</tag-class>
+	<body-content>empty</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>value</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>type</name><required>false</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>url</name><required>false</required></attribute>
+</tag>
+
+<tag>
+	<name>redirect</name>
+	<tag-class>com.fs.taglibs.ctrl.RedirectTag</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>page</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>param</name>
+	<tag-class>com.fs.taglibs.ctrl.ParamTag</tag-class>
+	<body-content>empty</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>value</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>lookup</name>
+	<tag-class>com.fs.taglibs.ctrl.CustomLookup</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>picture</name>	<required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>type</name><required>false</required></attribute>
+	<attribute><name>value</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required></attribute>
+	<attribute><name>align</name><required>false</required></attribute>
+	<attribute><name>readonly</name><required>false</required></attribute>
+	<attribute><name>disabled</name><required>false</required></attribute>
+	<attribute><name>tagstyle</name><required>false</required></attribute>
+	<attribute><name>lwidth</name><required>false</required></attribute>
+	<attribute><name>lheight</name><required>false</required></attribute>
+	<attribute><name>function</name><required>false</required></attribute>
+	<attribute><name>descname</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>descwidth</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>showdescription</name><required>false</required></attribute>
+	<attribute><name>autocomplete</name><required>false</required></attribute>
+	<attribute><name>maxlength</name><required>false</required></attribute>
+</tag>
+
+<tag>
+	<name>hidden</name>
+	<tag-class>com.fs.taglibs.ctrl.Hidden</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>value</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>href</name>
+	<tag-class>com.fs.taglibs.ctrl.Href</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>url</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>value</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>int</name>
+	<tag-class>com.fs.taglibs.ctrl.Int</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>maxlength</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>money</name>
+	<tag-class>com.fs.taglibs.ctrl.Money</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>decimal</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>minus</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>align</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required><rtexprvalue>true</rtexprvalue>	</attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>maxlength</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>date</name>
+	<tag-class>com.fs.taglibs.ctrl.Calendar</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>value</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue>	</attribute>
+	<attribute><name>align</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>maxlength</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>current</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>text</name>
+	<tag-class>com.fs.taglibs.ctrl.Text</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>picture</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>value</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>align</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>inputtype</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>maxlength</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>textarea</name>
+	<tag-class>com.fs.taglibs.ctrl.TextArea</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>bodystyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>cols</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>rows</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>width</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>url</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>accesskey</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>wrap</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>datagrid</name>
+	<tag-class>com.fs.taglibs.ctrl.DataGrid</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>items</name><required>false</required><rtexprvalue>false</rtexprvalue></attribute>
+	<attribute><name>scroll</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>rules</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>frame</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>style</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>styleClass</name>	<required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>var</name><required>true</required><rtexprvalue>false</rtexprvalue></attribute>
+	<attribute><name>height</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>width</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>cellPadding</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>cellSpacing</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>requestPath</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>checkbox</name>
+	<tag-class>com.fs.taglibs.ctrl.CheckBox</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required>	</attribute>
+	<attribute><name>value</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>caption</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>align</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>onclick</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>pid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>radio</name>
+	<tag-class>com.fs.taglibs.ctrl.Radio</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>value</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>caption</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>align</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>onclick</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>pid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+
+<tag>
+	<name>fieldset</name>
+	<tag-class>com.fs.taglibs.ctrl.FieldSet</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>align</name><required>false</required></attribute>
+	<attribute><name>legend</name><required>true</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>style</name><required>false</required></attribute>
+</tag>
+
+<tag>
+	<name>radiogroup</name>
+	<tag-class>com.fs.taglibs.ctrl.RadioGroup</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>legend</name><required>false</required></attribute>
+	<attribute><name>styleclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>style</name><required>false</required></attribute>
+	<attribute><name>alt</name><required>false</required></attribute>
+	<attribute><name>readonly</name><required>false</required></attribute>
+	<attribute><name>disabled</name><required>false</required></attribute>
+	<attribute><name>align</name><required>false</required></attribute>
+	<attribute><name>width</name><required>false</required></attribute>
+	<attribute><name>height</name><required>false</required></attribute>
+</tag>
+
+<tag>
+	<name>brokerno</name>
+	<tag-class>com.fs.taglibs.ctrl.sba.BrokerNo</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>ALT</name><required>false</required></attribute>
+</tag>
+
+<tag>
+	<name>mktaccount</name>
+	<tag-class>com.fs.taglibs.ctrl.sba.MktAccount</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>ALT</name><required>false</required></attribute>
+	<attribute><name>custacct</name><required>false</required></attribute>
+	<attribute><name>custtype</name><required>false</required></attribute>
+	<attribute><name>branch</name><required>false</required></attribute>
+	<attribute><name>marketid</name><required>false</required></attribute>
+	<attribute><name>chapter</name><required>false</required></attribute>
+	<attribute><name>picture</name><required>false</required></attribute>
+	<attribute><name>lwidth</name><required>false</required></attribute>
+	<attribute><name>lheight</name><required>false</required></attribute>
+	<attribute><name>showdescription</name><required>false</required></attribute>
+	<attribute><name>descname</name><required>false</required></attribute>
+</tag>
+
+<tag>
+	<name>mktid</name>
+	<tag-class>com.fs.taglibs.ctrl.sba.MktId</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>ALT</name><required>false</required></attribute>
+</tag>
+
+<tag>
+	<name>sharecode</name>
+	<tag-class>com.fs.taglibs.ctrl.sba.ShareCode</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>ALT</name><required>false</required></attribute>
+	<attribute><name>chapter</name><required>false</required></attribute>
+	<attribute><name>picture</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>lwidth</name><required>false</required></attribute>
+	<attribute><name>lheight</name><required>false</required></attribute>
+	<attribute><name>showdescription</name><required>false</required></attribute>
+	<attribute><name>descname</name><required>false</required></attribute>
+	<attribute><name>function</name><required>false</required></attribute>
+</tag>
+
+<tag>
+	<name>side</name>
+	<tag-class>com.fs.taglibs.ctrl.sba.Side</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>ALT</name><required>false</required></attribute>
+</tag>
+
+<tag>
+	<name>teamaccount</name>
+	<tag-class>com.fs.taglibs.ctrl.sba.TeamAccount</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>ALT</name><required>false</required></attribute>
+</tag>
+
+<tag>
+	<name>tradeaccount</name>
+	<tag-class>com.fs.taglibs.ctrl.sba.TradeAccount</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>ALT</name><required>false</required></attribute>
+</tag>
+
+<tag>
+	<name>xchgmkt</name>
+	<tag-class>com.fs.taglibs.ctrl.sba.XchgMkt</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>ALT</name><required>false</required></attribute>
+</tag>
+
+<tag>
+	<name>tlabel</name>
+	<tag-class>com.fs.taglibs.ctrl.TLabel</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>value</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>caption</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>align</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>colorbutton</name>
+	<tag-class>com.fs.taglibs.ctrl.ColorButton</tag-class>
+	<body-content>empty</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>caption</name><required>false</required></attribute>
+	<attribute><name>width</name><required>false</required></attribute>
+	<attribute><name>type</name><required>false</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>function</name><required>false</required></attribute>
+	<attribute><name>color</name><required>false</required></attribute>
+	<attribute><name>background</name><required>false</required></attribute>
+	<attribute><name>bordercolor</name><required>false</required></attribute>
+	<attribute><name>image</name><required>false</required></attribute>
+</tag>
+
+<tag>
+	<name>select</name>
+	<tag-class>com.fs.taglibs.ctrl.Select</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>section</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>selection</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>align</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>onclick</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>onchange</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>showing</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>delimiter</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>multiple</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>empty</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>texts</name>
+	<tag-class>com.fs.taglibs.ctrl.Texts</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>bodystyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>cols</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>rows</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>width</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>accesskey</name>	<required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>wrap</name><required>false</required><rtexprvalue>true</rtexprvalue>	</attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>span</name>
+	<tag-class>com.fs.taglibs.ctrl.Span</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>required</name><required>false</required></attribute>
+	<attribute><name>stylesheet</name><required>false</required></attribute>
+	<attribute><name>tagclass</name><required>false</required></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>pid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>day</name>
+	<tag-class>com.fs.taglibs.ctrl.Day</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>section</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>align</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>onclick</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>onchange</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>showing</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>delimiter</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>empty</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>current</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>monthid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>yearid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>month</name>
+	<tag-class>com.fs.taglibs.ctrl.Month</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>section</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>align</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>onclick</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>onchange</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>showing</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>delimiter</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>empty</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>current</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>dayid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>yearid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>locale</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>year</name>
+	<tag-class>com.fs.taglibs.ctrl.Year</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>section</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>align</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>onclick</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>onchange</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>showing</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>delimiter</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>empty</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>current</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>min</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>max</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>year</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>dayid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>monthid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>locale</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>hour</name>
+	<tag-class>com.fs.taglibs.ctrl.Hour</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>section</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>align</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>onclick</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>onchange</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>showing</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>delimiter</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>empty</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>current</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>minute</name>
+	<tag-class>com.fs.taglibs.ctrl.Minute</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>section</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>align</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>onclick</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>onchange</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>showing</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>delimiter</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>empty</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>current</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>second</name>
+	<tag-class>com.fs.taglibs.ctrl.Second</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>section</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>align</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required>	<rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>onclick</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>onchange</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>showing</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>delimiter</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>empty</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>current</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>calendar</name>
+	<tag-class>com.fs.taglibs.ctrl.Calendar</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>value</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue>	</attribute>
+	<attribute><name>align</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>maxlength</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>current</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+<tag>
+	<name>time</name>
+	<tag-class>com.fs.taglibs.ctrl.Time</tag-class>
+	<body-content>JSP</body-content>
+	<attribute><name>name</name><required>true</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>size</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagclass</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagid</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>value</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>align</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>alt</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>readonly</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>disabled</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>inputtype</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>maxlength</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>id</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>current</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+	<attribute><name>tagstyle</name><required>false</required><rtexprvalue>true</rtexprvalue></attribute>
+</tag>
+
+</taglib>

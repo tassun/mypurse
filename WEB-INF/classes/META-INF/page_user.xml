@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<config language="EN">
+		<fromdates_label>From Register Date</fromdates_label>
+		<todates_label>To Register Date</todates_label>
+		<userids_placeholder>User ID</userids_placeholder>
+		<usertnames_placeholder>First Name</usertnames_placeholder>
+		<usertsurnames_placeholder>Last Name</usertsurnames_placeholder>
+		<mobiles_placeholder>Mobile</mobiles_placeholder>
+		<emails_placeholder>Email</emails_placeholder>
+
+		<seqno_headerlabel>No.</seqno_headerlabel>
+		<userid_headerlabel>User</userid_headerlabel>
+		<usertname_headerlabel>First Name</usertname_headerlabel>
+		<usertsurname_headerlabel>Last Name</usertsurname_headerlabel>
+		<email_headerlabel>Email</email_headerlabel>
+		<mobile_headerlabel>Mobile</mobile_headerlabel>
+		<startdate_headerlabel>Register Date</startdate_headerlabel>
+		<starttime_headerlabel>Register Time</starttime_headerlabel>
+		<accessdate_headerlabel>Last Access Date</accessdate_headerlabel>
+		<accesstime_headerlabel>Last Access Time</accesstime_headerlabel>
+		
+		<journal_seqno_headerlabel>No.</journal_seqno_headerlabel>
+		<journal_curtime_headerlabel>Date/Time</journal_curtime_headerlabel>
+		<journal_progid_headerlabel>Usage</journal_progid_headerlabel>
+		<journal_action_headerlabel>Action</journal_action_headerlabel>
+		<journal_remark_headerlabel>Remark</journal_remark_headerlabel>
+
+	</config>
+	<config language="TH">
+		<fromdates_label>จากวันที่ลงทะเบียน</fromdates_label>
+		<todates_label>ถึงวนที่ลงทะเบียน</todates_label>
+		<userids_placeholder>ผู้ใช้</userids_placeholder>
+		<usertnames_placeholder>ชื่อ</usertnames_placeholder>
+		<usertsurnames_placeholder>นามสกุล</usertsurnames_placeholder>
+		<mobiles_placeholder>โทรศัพท์</mobiles_placeholder>
+		<emails_placeholder>อีเมล์</emails_placeholder>
+
+		<seqno_headerlabel>ลำดับที่</seqno_headerlabel>
+		<userid_headerlabel>ผู้ใช้</userid_headerlabel>
+		<usertname_headerlabel>ชื่อ</usertname_headerlabel>
+		<usertsurname_headerlabel>นามสกุล</usertsurname_headerlabel>
+		<email_headerlabel>อีเมล์</email_headerlabel>
+		<mobile_headerlabel>โทรศัพท์</mobile_headerlabel>
+		<startdate_headerlabel>วันที่ลงทะเบียน</startdate_headerlabel>
+		<starttime_headerlabel>เวลาลงทะเบียน</starttime_headerlabel>
+		<accessdate_headerlabel>วันที่เข้าใช้งานล่าสุด</accessdate_headerlabel>
+		<accesstime_headerlabel>เวลาเข้าใช้งานล่าสุด</accesstime_headerlabel>
+		
+		<journal_seqno_headerlabel>ลำดับที่</journal_seqno_headerlabel>
+		<journal_curtime_headerlabel>วันเวลา</journal_curtime_headerlabel>
+		<journal_progid_headerlabel>การใช้งาน</journal_progid_headerlabel>
+		<journal_action_headerlabel>การทำงาน</journal_action_headerlabel>
+		<journal_remark_headerlabel>หมายเหตุ</journal_remark_headerlabel>
+
+	</config>
+</configs>

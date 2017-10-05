@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+		<CALENDAR_HOME>js/calendar/</CALENDAR_HOME>
+		<LANGUAGE_ENCODING>UTF-8</LANGUAGE_ENCODING>
+		<REMOTE_BEAN_SERVICE>true</REMOTE_BEAN_SERVICE>
+		<RESPONSE_ERROR_CODE>400</RESPONSE_ERROR_CODE>
+		<CREATE_ID_NAMING>true</CREATE_ID_NAMING>
+		<COMMON_IO_WRITER>false</COMMON_IO_WRITER>
+
+		<DRIVER>com.mysql.jdbc.Driver</DRIVER>
+		<URL>jdbc:mysql://127.0.0.1:3306/pursedb</URL>
+		<USER>root</USER>
+		<PASSWORD>root</PASSWORD>
+
+		<PURSE_DRIVER>com.mysql.jdbc.Driver</PURSE_DRIVER>
+		<PURSE_URL>jdbc:mysql://127.0.0.1:3306/pursedb</PURSE_URL>
+		<PURSE_USER>root</PURSE_USER>
+		<PURSE_PASSWORD>root</PURSE_PASSWORD>
+
+		<LOGGER_DRIVER>com.mysql.jdbc.Driver</LOGGER_DRIVER>
+		<LOGGER_URL>jdbc:mysql://127.0.0.1:3306/pursedb</LOGGER_URL>
+		<LOGGER_USER>root</LOGGER_USER>
+		<LOGGER_PASSWORD>root</LOGGER_PASSWORD>
+		
+		<VALID_CREDENTIAL>false</VALID_CREDENTIAL>
+
+		<DEBUG_MODE>true</DEBUG_MODE>
+		<WARNING_MODE>true</WARNING_MODE>
+		<INFO_MODE>true</INFO_MODE>
+		<ERROR_MODE>true</ERROR_MODE>
+		<HEADER_MODE>false</HEADER_MODE>
+		<TRANSPORT_URL></TRANSPORT_URL>
+		<ALERT_MESSAGE>true</ALERT_MESSAGE>
+		<EXCEPTION_MESSAGE>true</EXCEPTION_MESSAGE>
+
+		<UNICODE_CONVERTER>false</UNICODE_CONVERTER>
+		<DISPLAY_COLLECTION_CONVERTER>0</DISPLAY_COLLECTION_CONVERTER>
+		<TRANSFORM_ENCODING>ISO-8859-1</TRANSFORM_ENCODING>
+		<BYTES_COLLECTION_ENCODING>ISO-8859-1</BYTES_COLLECTION_ENCODING>
+
+		<MAXCONNECTION>0</MAXCONNECTION>
+		<REUSECONNECTION>true</REUSECONNECTION>
+
+		<CONVERT_UNICODE>false</CONVERT_UNICODE>
+		<VALIDATE_SIGNON>true</VALIDATE_SIGNON>
+		<MAXFAIL_SIGNON>3</MAXFAIL_SIGNON>
+
+		<LOOKUP_SERVLET>/servlet/collector</LOOKUP_SERVLET>
+		<DBTRACE>false</DBTRACE>
+		<DB_LOCALE>en_US</DB_LOCALE>
+		<MAIN_SCRIPTS>js/modernizr.custom.js,js/jquery-1.11.1.js,js/fsutil.js,assets/js/prettify.js,bootstrap/bootstrap.js,bootstrap/bootbox.js,js/base.js,js/fslib.js,jquery/jquery-migrate-1.2.1.js,jquery/external/jquery.bgiframe-2.1.1.js,jquery/ui/jquery.ui.core.js,jquery/ui/jquery.ui.widget.js,jquery/ui/jquery.ui.menu.js,jquery/ui/jquery.ui.mouse.js,jquery/ui/jquery.ui.button.js,jquery/ui/jquery.ui.draggable.js,jquery/ui/jquery.ui.position.js,jquery/ui/jquery.ui.resizable.js,jquery/ui/jquery.ui.dialog.js,jquery/ui/jquery.ui.tabs.js,jquery/ui/jquery.ui.datepicker.js,../jquery/ui/i18n/jquery.ui.datepicker-th.js,../jquery/ui/i18n/jquery.ui.datepicker-en.js,jquery/js/jquery.ui.combobox.js,jquery/js/jquery.ui.selectbox.js,jquery/js/jquery.ui.navigate.js,jquery/js/jquery.ui.editor.js,jquery/js/jquery.contextMenu.js,jquery/js/jquery.fileupload.js,jquery/js/jquery.maskedinput.js,jquery/js/jquery.maskMoney.js,jquery/js/jquery.ui.waiting.js,js/navbar.menu.js,js/sidebar.menu.js,js/favorbar.menu.js,js/calendar/calendar.js,angular/angular.js</MAIN_SCRIPTS>
+		<MAIN_STYLES>bootstrap/bootstrap.css,jquery/themes/base/jquery.ui.all.css,jquery/themes/base/jquery-ui-1.8.2.custom.css,jquery/js/jquery.contextMenu.css,css/font-awesome.min.css,css/animations.css,css/custom_form.css,css/dialog.css,css/component.css,css/base_style.css,css/nav_menu.css,css/sidebar_menu.css,css/favor_menu.css</MAIN_STYLES>
+		<IMPORT_SCRIPTS>../js/modernizr.custom.js,../js/jquery-1.11.1.js,../js/fsutil.js,assets/js/prettify.js,../bootstrap/bootstrap.js,../bootstrap/bootbox.js,../js/base.js,../js/fslib.js,../jquery/jquery-migrate-1.2.1.js,../jquery/external/jquery.bgiframe-2.1.1.js,../jquery/ui/jquery.ui.core.js,../jquery/ui/jquery.ui.widget.js,../jquery/ui/jquery.ui.menu.js,../jquery/ui/jquery.ui.mouse.js,../jquery/ui/jquery.ui.button.js,../jquery/ui/jquery.ui.draggable.js,../jquery/ui/jquery.ui.position.js,../jquery/ui/jquery.ui.resizable.js,../jquery/ui/jquery.ui.dialog.js,../jquery/ui/jquery.ui.tabs.js,../jquery/ui/jquery.ui.datepicker.js,../jquery/ui/i18n/jquery.ui.datepicker-th.js,../jquery/ui/i18n/jquery.ui.datepicker-en.js,../jquery/js/jquery.ui.combobox.js,../jquery/js/jquery.ui.selectbox.js,../jquery/js/jquery.ui.navigate.js,../jquery/js/jquery.ui.editor.js,../jquery/js/jquery.contextMenu.js,../jquery/js/jquery.fileupload.js,../jquery/js/jquery.maskedinput.js,../jquery/js/jquery.maskMoney.js,../jquery/js/jquery.ui.waiting.js,../js/navbar.menu.js,../js/sidebar.menu.js,../js/favorbar.menu.js,../js/calendar/calendar.js,../angular/angular.js</IMPORT_SCRIPTS>
+		<IMPORT_STYLES>../bootstrap/bootstrap.css,../jquery/themes/base/jquery.ui.all.css,../jquery/themes/base/jquery-ui-1.8.2.custom.css,../jquery/js/jquery.contextMenu.css,../css/font-awesome.min.css,../css/animations.css,../css/custom_form.css,../css/dialog.css,../css/component.css,../css/base_style.css,../css/nav_menu.css,../css/sidebar_menu.css,../css/favor_menu.css</IMPORT_STYLES>
+		<STATEMENT_UPDATE_LOGGING>false</STATEMENT_UPDATE_LOGGING>
+		<STATEMENT_QUERY_LOGGING>false</STATEMENT_QUERY_LOGGING>
+
+		<FONTFAMILY>fonts/courier_thai.ttf</FONTFAMILY>
+		<FONTSIZE>10</FONTSIZE>
+
+</CONFIG>

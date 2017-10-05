@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script>
+	var XOR = function(key) {
+		this.key = key;
+	}
+	XOR.prototype.encrypt = function(text) {
+		var result = "";
+		for (var i=0; i<text.length; i++) {
+			result += String.fromCharCode(this.key ^ text.charCodeAt(i));
+		}
+		return result;
+	}
+	XOR.prototype.decrypt = function(hash) {
+		var result = "";
+		for (var i=0; i<hash.length; i++) {
+			result += String.fromCharCode(this.key ^ hash.charCodeAt(i));
+		}
+		return result;
+	}
+	function encClick() {
+		var k = parseInt(mykey.value);
+		var x = new XOR(k);
+		myhash.value = x.encrypt(mytext.value);
+	}
+	function decClick() {
+		var k = parseInt(mykey.value);
+		var x = new XOR(k);
+		mystr.value = x.decrypt(myhash.value);
+	}
+	function strToHex(input,key) {
+		var c = "";
+		while(key.length < input.length) {
+			 key += key;
+		}
+		for(var i=0; i<input.length; i++) {
+			var value1 = input[i].charCodeAt(0);
+			var value2 = key[i].charCodeAt(0);
+			var xorValue = value1 ^ value2;
+			var xorValueAsHexString = xorValue.toString("16");
+			if (xorValueAsHexString.length < 2) {
+				xorValueAsHexString = "0" + xorValueAsHexString;
+			}
+			c += xorValueAsHexString;
+		}
+		return c;
+	}
+	function hexToStr(hex,key) {
+		var result = "";
+		while(key.length < hex.length) {
+			 key += key;
+		}
+		for (var i = 0; i < hex.length; i += 2) {
+			var hexValue = hex.substr(i, 2);
+			var value1 = parseInt(hexValue, 16);
+			var value2 = key[i].charCodeAt(0);
+			var xorValue = value1 ^ value2;
+			result += String.fromCharCode(xorValue);
+		}
+		return result;
+	}
+	function hexClick() {
+		myxorhash.value = strToHex(mytext.value,mykey.value);
+	}
+	function xorClick() {
+		mystrhash.value = hexToStr(myxorhash.value,mykey.value);
+		/*
+		var k = parseInt(mykey.value);
+		var x = new XOR(k);
+		myhashstr.value = x.encrypt(mystrhash.value);
+		*/
+	}
+  </script>
+ </head>
+ <body>
+	<table>
+		<tr>
+			<td>Key</td>
+			<td><input id="mykey" value="3"/></td>
+		</tr>
+		<tr>
+			<td>Plain Text</td>
+			<td><input id="mytext" value="hello"/></td>
+			<td><input type="button" id="encbutton" onclick="encClick()" value="Encrypt"></td>
+		</tr>
+		<tr>
+			<td>Hash Text</td>
+			<td><input id="myhash"/></td>
+			<td><input type="button" id="decbutton" onclick="decClick()" value="Decrypt"/></td>
+			<td><input id="mystr"/></td>
+		</tr>
+		<tr>
+			<td>Hex Text</td>
+			<td><input id="myxorhash"/></td>
+			<td><input type="button" id="hexbutton" onclick="hexClick()" value="HEX"/></td>
+		</tr>
+		<tr>
+			<td>XOR Text</td>
+			<td><input id="mystrhash"/></td>
+			<td><input type="button" id="xorbutton" onclick="xorClick()" value="XOR"/></td>
+			<td><input id="myhashstr"/></td>
+		</tr>
+	</table>
+ </body>
+</html>

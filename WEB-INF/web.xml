@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+
+<listener>
+        <listener-class>com.fs.dev.servlet.TheSession</listener-class>
+</listener>
+
+	<servlet>
+		<servlet-name>collector</servlet-name>
+		<servlet-class>com.fs.dev.servlet.TheCollector</servlet-class>
+	</servlet>
+
+  	<servlet>
+		<servlet-name>jersey</servlet-name>
+		<servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+		<init-param>
+			<param-name>javax.ws.rs.Application</param-name>
+			<param-value>com.fs.dev.rest.Application</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>jersey</servlet-name>
+		<url-pattern>/rest/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>collector</servlet-name>
+		<url-pattern>/servlet/collector</url-pattern>
+	</servlet-mapping>
+<!--
+    <filter>
+        <filter-name>ApplicationFilter</filter-name>
+        <filter-class>com.fs.dev.filter.ApplicationFilter</filter-class>
+        <init-param>
+            <param-name>except_url</param-name>
+            <param-value>/index.jsp,/login.jsp,/logon/,/page_login/,/page_regist/,/page_forgot/,/signin/,/tso/,/test/,/main.jsp,/version.jsp,/jsp/,/main/,/xml/,/js/,/fonts/,/flexigrid/,/track/,/nav/,/lookup/,/less/</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>ApplicationFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+-->
+</web-app>

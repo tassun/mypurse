@@ -1,0 +1,19 @@
+
+signin
+http://localhost:8080/mypurse/rest/handler/signin?deviceid=001
+calling sub application
+http://localhost:8080/mypurse/rest/handler/signin/login?deviceid=001
+
+calling program
+http://localhost:8080/mypurse/rest/manager/tso001?account=111-1&amt=1000
+
+Forgot password
+java -Dmail.smtp.starttls.enable=true -Dmail.smtp.port=587 -Dmail.smtps.host=smtp.gmail.com -Dmail.smtps.auth=true com/fs/dev/mail/SendMail -h smtp.gmail.com -f mypurse60@gmail.com -t tassun_oro@hotmail.com -m "Hello Test" -s "Testing" -c smtp -u mypurse60 -p purse2560
+
+generate bean
+java com/fs/bean/tool/DB2Bean -d com.mysql.jdbc.Driver -l jdbc:mysql://127.0.0.1:3306/pursedb -u root -p root -k com.fs.bean -o C:\apache-tomcat-8.0.35\webapps\mypurse\WEB-INF\classes\com\fs\bean -t tuser -c TUserBean
+
+
+http://localhost:8080/mypurse/page_item/page_item_de_c.jsp?fsUser=tso&fsAction=enter&fsJson=true&cdname=TSO Benefit&cdtype=1&amt=110
+{"transactions":"1","amt":"110.00","cdtype":"1","edittime":"14:56:28","editdate":"05/09/2017","userid":"tso","cdstyle":"","iconfile":"","cdname":"TSO Benefit","cdcode":"2017090514562834451251954820887617321984596986162","ownflag":"1"} 
+

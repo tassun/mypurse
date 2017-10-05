@@ -1,0 +1,24 @@
+textarea,input,button,label,td,th,p,div,span,a,li,i,b { 
+	font-family:Tahoma; 
+	font-size:12pt;
+}
+.my-placeholder{
+	font-family:Tahoma; 
+	font-size:12pt;
+	padding-bottom:3px;
+	color: #BDBDBD;
+}
+select.input-sm{
+
+}
+select.form-control{
+	padding:0;
+	border: 1px #AAAAAA solid;
+	outline: 0;
+	font-size: 100%;
+	line-height: 1.5em;
+	text-decoration: none;
+	vertical-align: text-top;
+	font-family:Tahoma; 
+	font-size:12pt;
+}

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<config language="EN">
+		<fromdates_label>From Date</fromdates_label>
+		<todates_label>To Date</todates_label>
+		<journalbutton>Journal</journalbutton>
+		<dailybutton>Daily</dailybutton>
+		<monthlybutton>Monthly</monthlybutton>
+		<yearlybutton>Yearly</yearlybutton>
+		<exportjournalexcelbutton>Excel</exportjournalexcelbutton>
+		<exportdailyexcelbutton>Excel</exportdailyexcelbutton>
+		<exportmonthlyexcelbutton>Excel</exportmonthlyexcelbutton>
+		<exportyearlyexcelbutton>Excel</exportyearlyexcelbutton>
+		<exportjournalpdfbutton>PDF</exportjournalpdfbutton>
+		<exportdailypdfbutton>PDF</exportdailypdfbutton>
+		<exportmonthlypdfbutton>PDF</exportmonthlypdfbutton>
+		<exportyearlypdfbutton>PDF</exportyearlypdfbutton>
+
+		<seqno_headerlabel>No.</seqno_headerlabel>
+		<cdname_headerlabel>Title</cdname_headerlabel>
+		<receiveamt_headerlabel>Receive</receiveamt_headerlabel>
+		<paymentamt_headerlabel>Payment</paymentamt_headerlabel>
+		<totalamt_label>Total Amount</totalamt_label>
+		<balanceamt_label>Balance Amount</balanceamt_label>
+		
+		<journal_seqno_headerlabel>No.</journal_seqno_headerlabel>
+		<journal_cdrefdate_headerlabel>Date</journal_cdrefdate_headerlabel>
+		<journal_amt_headerlabel>Amount</journal_amt_headerlabel>
+		<journal_remark_headerlabel>Remark</journal_remark_headerlabel>
+
+		<item_seqno_headerlabel>No.</item_seqno_headerlabel>
+		<item_cdname_headerlabel>Title</item_cdname_headerlabel>
+		<item_receiveamt_headerlabel>Receive</item_receiveamt_headerlabel>
+		<item_paymentamt_headerlabel>Payment</item_paymentamt_headerlabel>
+		<item_remark_headerlabel>Remark</item_remark_headerlabel>
+		<item_totalamt_label>Total Amount</item_totalamt_label>
+		<item_balanceamt_label>Balance Amount</item_balanceamt_label>
+
+		<daily_seqno_headerlabel>No.</daily_seqno_headerlabel>
+		<daily_cddate_headerlabel>Date</daily_cddate_headerlabel>
+		<daily_receiveamt_headerlabel>Receive</daily_receiveamt_headerlabel>
+		<daily_paymentamt_headerlabel>Payment</daily_paymentamt_headerlabel>
+		<daily_amt_headerlabel>Amount</daily_amt_headerlabel>
+		<daily_totalamt_label>Total Amount</daily_totalamt_label>
+		
+		<monthly_seqno_headerlabel>No.</monthly_seqno_headerlabel>
+		<monthly_monthyear_headerlabel>Month/Year</monthly_monthyear_headerlabel>
+		<monthly_receiveamt_headerlabel>Receive</monthly_receiveamt_headerlabel>
+		<monthly_paymentamt_headerlabel>Payment</monthly_paymentamt_headerlabel>
+		<monthly_amt_headerlabel>Amount</monthly_amt_headerlabel>
+		<monthly_totalamt_label>Total Amount</monthly_totalamt_label>
+
+		<yearly_seqno_headerlabel>No.</yearly_seqno_headerlabel>
+		<yearly_monthyear_headerlabel>Year</yearly_monthyear_headerlabel>
+		<yearly_receiveamt_headerlabel>Receive</yearly_receiveamt_headerlabel>
+		<yearly_paymentamt_headerlabel>Payment</yearly_paymentamt_headerlabel>
+		<yearly_amt_headerlabel>Amount</yearly_amt_headerlabel>
+		<yearly_totalamt_label>Total Amount</yearly_totalamt_label>
+
+		<cdname_column>Title</cdname_column>
+		<cnamt_column>Receive</cnamt_column>
+		<dnamt_column>Payment</dnamt_column>
+		<total_column>Total Amount</total_column>
+		<balance_column>Balance Amount</balance_column>
+		<asat_column>As At</asat_column>
+		<cdrefdate_column>Date</cdrefdate_column>
+		<amt_column>Amount</amt_column>
+		<monthyear_column>Month/Year</monthyear_column>
+		<yearly_column>Year</yearly_column>
+	</config>
+	<config language="TH">
+		<fromdates_label>จากวันที่</fromdates_label>
+		<todates_label>ถึงวันที่</todates_label>
+		<journalbutton>รายการ</journalbutton>
+		<dailybutton>รายวัน</dailybutton>
+		<monthlybutton>รายเดือน</monthlybutton>
+		<yearlybutton>รายปี</yearlybutton>
+		<exportjournalexcelbutton>Excel</exportjournalexcelbutton>
+		<exportdailyexcelbutton>Excel</exportdailyexcelbutton>
+		<exportmonthlyexcelbutton>Excel</exportmonthlyexcelbutton>
+		<exportyearlyexcelbutton>Excel</exportyearlyexcelbutton>
+		<exportjournalpdfbutton>PDF</exportjournalpdfbutton>
+		<exportdailypdfbutton>PDF</exportdailypdfbutton>
+		<exportmonthlypdfbutton>PDF</exportmonthlypdfbutton>
+		<exportyearlypdfbutton>PDF</exportyearlypdfbutton>
+
+		<seqno_headerlabel>ลำดับที่</seqno_headerlabel>
+		<cdname_headerlabel>รายการ</cdname_headerlabel>
+		<receiveamt_headerlabel>รายรับ</receiveamt_headerlabel>
+		<paymentamt_headerlabel>รายจ่าย</paymentamt_headerlabel>
+		<totalamt_label>ยอดรวมทั้งหมด</totalamt_label>
+		<balanceamt_label>ยอดคงเหลือทั้งหมด</balanceamt_label>
+		
+		<journal_seqno_headerlabel>ลำดับที่</journal_seqno_headerlabel>
+		<journal_cdrefdate_headerlabel>วันที่</journal_cdrefdate_headerlabel>
+		<journal_amt_headerlabel>จำนวนเงิน</journal_amt_headerlabel>
+		<journal_remark_headerlabel>หมายเหตุ</journal_remark_headerlabel>
+
+		<item_seqno_headerlabel>ลำดับที่</item_seqno_headerlabel>
+		<item_cdname_headerlabel>รายการ</item_cdname_headerlabel>
+		<item_receiveamt_headerlabel>รายรับ</item_receiveamt_headerlabel>
+		<item_paymentamt_headerlabel>รายจ่าย</item_paymentamt_headerlabel>
+		<item_remark_headerlabel>หมายเหตุ</item_remark_headerlabel>
+		<item_totalamt_label>ยอดรวมทั้งหมด</item_totalamt_label>
+		<item_balanceamt_label>ยอดคงเหลือทั้งหมด</item_balanceamt_label>
+
+		<daily_seqno_headerlabel>ลำดับที่</daily_seqno_headerlabel>
+		<daily_cddate_headerlabel>วันที่</daily_cddate_headerlabel>
+		<daily_receiveamt_headerlabel>รายรับ</daily_receiveamt_headerlabel>
+		<daily_paymentamt_headerlabel>รายจ่าย</daily_paymentamt_headerlabel>
+		<daily_amt_headerlabel>จำนวนเงิน</daily_amt_headerlabel>
+		<daily_totalamt_label>ยอดรวมทั้งหมด</daily_totalamt_label>
+		
+		<monthly_seqno_headerlabel>ลำดับที่</monthly_seqno_headerlabel>
+		<monthly_monthyear_headerlabel>เดือน/ปี</monthly_monthyear_headerlabel>
+		<monthly_receiveamt_headerlabel>รายรับ</monthly_receiveamt_headerlabel>
+		<monthly_paymentamt_headerlabel>รายจ่าย</monthly_paymentamt_headerlabel>
+		<monthly_amt_headerlabel>จำนวนเงิน</monthly_amt_headerlabel>
+		<monthly_totalamt_label>ยอดรวมทั้งหมด</monthly_totalamt_label>
+
+		<yearly_seqno_headerlabel>ลำดับที่</yearly_seqno_headerlabel>
+		<yearly_monthyear_headerlabel>ปี</yearly_monthyear_headerlabel>
+		<yearly_receiveamt_headerlabel>รายรับ</yearly_receiveamt_headerlabel>
+		<yearly_paymentamt_headerlabel>รายจ่าย</yearly_paymentamt_headerlabel>
+		<yearly_amt_headerlabel>จำนวนเงิน</yearly_amt_headerlabel>
+		<yearly_totalamt_label>ยอดรวมทั้งหมด</yearly_totalamt_label>
+
+		<cdname_column>รายการ</cdname_column>
+		<cnamt_column>รายรับ</cnamt_column>
+		<dnamt_column>รายจ่าย</dnamt_column>
+		<total_column>ยอดรวมทั้งหมด</total_column>
+		<balance_column>ยอดคงเหลือทั้งหมด</balance_column>
+		<asat_column>วันที่</asat_column>
+		<cdrefdate_column>วันที่</cdrefdate_column>
+		<amt_column>จำนวนเงิน</amt_column>
+		<monthyear_column>เดือน/ปี</monthyear_column>
+		<yearly_column>ปี</yearly_column>
+	</config>
+</configs>

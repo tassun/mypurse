@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Lookup Dialog</title>
+<link href="../jquery/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />
+<link href="../jquery/themes/base/jquery-ui-1.8.2.custom.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/flexigrid/flexigrid.css">
+<script type="text/javascript" src="../jquery/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="flexigrid.js"></script>
+<style>
+	body { 	font-family: Arial, Helvetica, sans-serif; 	font-size: 12px; 	}		
+	.flexigrid div.fbutton .add 	{ background: url(css/images/add.png) no-repeat center left; }	
+	.flexigrid div.fbutton .delete 	{ background: url(css/images/close.png) no-repeat center left; }			
+</style>
+<script language="javascript">
+function objectToString(o){    
+    var parse = function(_o){    
+        var a = [], t;        
+        for(var p in _o){        
+            if(_o.hasOwnProperty(p)){            
+                t = _o[p];                
+                if(t && typeof t == "object"){                
+                    a[a.length]= "\""+p+"\"" + ":{ " + arguments.callee(t).join(", ") + "}";                    
+                } else { 
+                    if(typeof t == "string"){                    
+                        a[a.length] = [ "\""+p+"\""+ ": \"" + t.toString() + "\"" ];
+                    } else{
+                        a[a.length] = [ "\""+p+"\""+ ": " + t.toString()];
+                    }                    
+                }
+            }
+        }        
+        return a;        
+    }    
+    return "{" + parse(o).join(", ") + "}";    
+}
+</script>
+</head>
+<body>
+<table id="flextable" style="display:none" class="tclass ui-state-default"></table>
+<script type="text/javascript">
+	window.returnValue = "";
+	var params = jQuery.extend({
+		onSelect : function(index,data) { 
+			//alert("row = "+index+" , data row = "+data.cell);  
+			window.returnValue = objectToString(data); 
+			window.close(); 
+		}
+	},window.dialogArguments);
+	window.document.title = params.dialogTitle;
+	$("#flextable").flexigrid(params);		
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="TIS-620"?>
+<configs>
+	<config language="EN">
+		<searchbutton>Search</searchbutton>
+		<refreshbutton_label>Refresh</refreshbutton_label>
+		<insertbutton_label>Add</insertbutton_label>
+		<recordnotfound>Record not found</recordnotfound>
+		<savebutton>Save</savebutton>
+		<cancelbutton>Cancel</cancelbutton>
+		<resetbutton>Clear</resetbutton>
+		<backbutton>Back</backbutton>
+		<btnview_tooltip>View</btnview_tooltip>
+		<btnedit_tooltip>Edit</btnedit_tooltip>
+		<btndelete_tooltip>Delete</btndelete_tooltip>
+	</config>
+	<config language="TH">
+		<searchbutton>ค้นหา</searchbutton>
+		<refreshbutton_label>ค้นหาใหม่</refreshbutton_label>
+		<insertbutton_label>เพิ่ม</insertbutton_label>
+		<recordnotfound>ไม่พบรายการ</recordnotfound>
+		<savebutton>บันทึก</savebutton>
+		<cancelbutton>ยกเลิก</cancelbutton>
+		<resetbutton>ล้าง</resetbutton>
+		<backbutton>กลับ</backbutton>
+		<btnview_tooltip>ดู</btnview_tooltip>
+		<btnedit_tooltip>แก้ไข</btnedit_tooltip>
+		<btndelete_tooltip>ลบ</btndelete_tooltip>
+	</config>
+</configs>

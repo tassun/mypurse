@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<msg code="QS0001"><TH>คุณต้องการลบรายการนี้ใช่หรือไม่ (บรรทัด %s)</TH><EN>Do you want to delete this transaction? (line. %s)</EN></msg>
+	<msg code="QS0002"><TH>คุณต้องการบันทึกรายการนี้ใช่หรือไม่</TH><EN>Do you want to save this transaction?</EN></msg>
+	<msg code="QS0003"><TH>คุณต้องการยกเลิกรายการนี้ใช่หรือไม่</TH><EN>Do you want to cancel this transaction?</EN></msg>
+	<msg code="QS0004"><TH>บันทึกรายการเรียบร้อยแล้ว</TH><EN>Process Success</EN></msg>
+	<msg code="QS0005"><TH>ท่านต้องการลบรายการนี้ใช่หรือไม่ %s</TH><EN>Do you want to delete this record? %s</EN></msg>
+	<msg code="QS0006"><TH>คุณต้องการส่งรายการนี้ใช่หรือไม่</TH><EN>Do you want to send this reqeust?</EN></msg>
+	<msg code="QS0007"><TH>ระบบลงทะเบียนท่านเรียบร้อยแล้ว</TH><EN>Process your registration success</EN></msg>
+	<msg code="QS0008"><TH>ระบบได้ทำการเปลี่ยนรหัสผ่านของท่านเรียบร้อยแล้ว</TH><EN>Process change your password success</EN></msg>
+	<msg code="QS0009"><TH>ระบบได้ทำการจัดส่งรหัสผ่านของท่านไปยังอีเมล์ที่แจ้งเรียบร้อยแล้ว</TH><EN>Please verify your email for new password changed</EN></msg>
+	<msg code="QS0010"><TH>คุณต้องการเปลี่ยนรหัสผ่านใช่หรือไม่</TH><EN>Do you want to change your password?</EN></msg>
+	<msg code="QS0011"><TH>คุณต้องการลงทะเบียนผู้ใช้ใหม่ใช่หรือไม่</TH><EN>Do you want to register new account?</EN></msg>
+	
+	<msg code="fsconfirmbtn"><TH>ตกลง</TH><EN>OK</EN></msg>
+	<msg code="fscancelbtn"><TH>ยกเลิก</TH><EN>Cancel</EN></msg>
+	<msg code="fssavebtn"><TH>บันทึก</TH><EN>Save</EN></msg>
+	<msg code="fsclosebtn"><TH>ปิด</TH><EN>Close</EN></msg>
+	<msg code="fsokbtn"><TH>ตกลง</TH><EN>OK</EN></msg>
+	<msg code="fsmessagetitle"><TH>ข้อความ</TH><EN>Message</EN></msg>
+	<msg code="fsaccepttitle"><TH>ยืนยัน</TH><EN>Confirm</EN></msg>
+
+	<msg code="8021"><TH>ท่านไม่มีสิทธิ์ดูรายการนี้</TH><EN>No permission to retrieve this transaction</EN></msg>
+	<msg code="8022"><TH>ท่านไม่มีสิทธิ์แก้ไขรายการนี้</TH><EN>No permission to edit this transaction</EN></msg>
+	<msg code="8023"><TH>ท่านไม่มีสิทธิ์ลบรายการนี้</TH><EN>No permission to delete this transaction</EN></msg>
+	<msg code="8024"><TH>ท่านไม่มีสิทธิ์สร้างรายการนี้</TH><EN>No permission to add this transaction</EN></msg>
+	<msg code="8025"><TH>ท่านไม่มีสิทธิ์นำเข้ารายการนี้</TH><EN>No permission to import this transaction</EN></msg>
+	<msg code="8026"><TH>ท่านไม่มีสิทธิ์นำออกรายการนี้</TH><EN>No permission to export this transaction</EN></msg>
+
+	<msg code="QS0100"><TH>ไม่พบข้อมูลที่ต้องการ โปรดกรุณาระบุและค้นหาใหม่</TH><EN>Record not found</EN></msg>
+	<msg code="QS0101"><TH>นำเข้าข้อมูลไม่ถูกต้อง</TH><EN>Invalid input</EN></msg>
+	<msg code="QS0102"><TH>ข้อมูลไม่ได้ระบุ</TH><EN>Value is undefined</EN></msg>
+	<msg code="QS0103"><TH>นำเข้าข้อมูลซ้ำซ้อน</TH><EN>Duplicate values</EN></msg>
+	<msg code="QS0104"><TH>ปรับปรุงข้อมูลเรียบร้อย</TH><EN>Update success</EN></msg>
+	<msg code="QS0105"><TH>วันที่ไม่ได้ระบุ</TH><EN>Date is not specified</EN></msg>
+</root>

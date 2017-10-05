@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+ </HEAD>
+
+ <BODY>
+  <form id="myform" name="myform" action="tso001.jsp" method="POST" target="myframe">
+	<input type="hidden" name="fsAction" value="retrieve"/>
+	Account : <input type="text" name="account" value="1-1-1111-1"/> </br>
+	Credit : <input type="text" name="credit" value="500000"/></br>
+	<br>
+	<input type="submit" value="Submit JSP" onclick="myform.action='tso001.jsp'"></input>
+	<input type="submit" value="Submit Rest" onclick="myform.action='../rest/manager/tso001'"></input>
+	<input type="submit" value="Submit Rest Credit" onclick="myform.action='../rest/manager/tso001/credit'"></input>
+  </form>
+  <iframe id="myframe" name="myframe" width="99%" height="150px;"/>
+ </BODY>
+</HTML>
+
+
+
